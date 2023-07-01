@@ -27,7 +27,9 @@ In that environment, the requirements can be installed with:
 pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-## To Be Added Soon
+## TODO
+- [ ] Refactor and clean code
+- [ ] Release complete config, network and training files
 
 
 ## Acknowledgements
