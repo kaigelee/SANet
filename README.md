@@ -35,3 +35,4 @@ authors for making the source code publically available.
 
 * [awesome-semantic-segmentation-pytorch](https://github.com/Tramac/awesome-semantic-segmentation-pytorch)
 * [ICNet-pytorch](https://github.com/liminn/ICNet-pytorch)
+* [Human-Segmentation-PyTorch](https://github.com/thuyngch/Human-Segmentation-PyTorch)
