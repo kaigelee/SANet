@@ -26,3 +26,12 @@ In that environment, the requirements can be installed with:
 ```shell
 pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
 ```
+
+
+## Acknowledgements
+
+This project is based on the following open-source projects. We thank their
+authors for making the source code publically available.
+
+* [awesome-semantic-segmentation-pytorch](https://github.com/Tramac/awesome-semantic-segmentation-pytorch)
+* [ICNet-pytorch](https://github.com/liminn/ICNet-pytorch)
