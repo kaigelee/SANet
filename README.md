@@ -40,6 +40,64 @@ In that environment, the requirements can be installed with:
 pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
+
+## Usage
+
+### 0. Prepare the dataset
+
+* Download the [Cityscapes](https://www.cityscapes-dataset.com/) and [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) datasets and unzip them in `data/cityscapes` and `data/camvid` dirs.
+
+
+### 1. Training
+
+* Download the ImageNet pretrained models and put them into `pretrained_models/imagenet/` dir.
+* For example, train the SANet on Cityscapes with batch size of 12 on one GPU:
+````bash
+python tools/train.py --cfg configs/SANet_cityscapes.yaml
+````
+* Or train the SANet on Cityscapes using train and val sets simultaneously with batch size of 12 on one GPU:
+````bash
+python tools/trainval.py --cfg configs//SANet_cityscapes_trainval.yaml
+````
+
+### 2. Evaluation
+
+* Download the finetuned models for Cityscapes and CamVid and put them into `pretrained_models/cityscapes/` and `pretrained_models/camvid/` dirs, respectively.
+* For example, evaluate the SANet on Cityscapes val set:
+````bash
+python tools/eval.py --cfg configs/SANet_cityscapes.yaml \
+                          TEST.MODEL_FILE pretrained_models/cityscapes/SANet_Cityscapes_test.pt
+````
+* Or, evaluate the SANet on CamVid test set:
+````bash
+python tools/eval.py --cfg configs/SANet_cityscapes.yaml \
+                          TEST.MODEL_FILE pretrained_models/camvid/SANet_Camvid_Test.pt
+````
+* Generate the testing results of SANet on Cityscapes test set:
+````bash
+python tools/eval.py --cfg configs/SANet_cityscapes_trainval.yaml \
+                          TEST.MODEL_FILE pretrained_models/cityscapes/SANet_trainval_Cityscapes_test.pt 
+````
+
+### 3. Speed Measurement
+
+* Measure the inference speed of SANet-100 for Cityscapes:
+````bash
+python models/speed/sanet_speed.py --c 19 --r 1024 2048
+````
+* Measure the inference speed of SANet for CamVid:
+````bash
+python models/speed/sanet_speed.py --c 11 --r 720 960
+````
+
+### 4. Custom Inputs
+
+* Put all your images in `samples/` and then run the command below using Cityscapes pretrained SANet for image format of .png:
+````bash
+python tools/custom.py --p '../pretrained_models/cityscapes/SANet_Cityscapes_test.pth' --t '.png'
+````
+
+
 ## TODO
 - [ ] Refactor and clean code
 - [ ] Release complete config, network and training files
