@@ -57,7 +57,7 @@ python tools/train.py --cfg configs/SANet_cityscapes.yaml
 ````
 * Or train the SANet on Cityscapes using train and val sets simultaneously with batch size of 12 on one GPU:
 ````bash
-python tools/trainval.py --cfg configs//SANet_cityscapes_trainval.yaml
+python tools/trainval.py --cfg configs/SANet_cityscapes_trainval.yaml
 ````
 
 ### 2. Evaluation
@@ -94,7 +94,7 @@ python models/speed/sanet_speed.py --c 11 --r 720 960
 
 * Put all your images in `samples/` and then run the command below using Cityscapes pretrained SANet for image format of .png:
 ````bash
-python tools/custom.py --p '../pretrained_models/cityscapes/SANet_Cityscapes_test.pth' --t '.png'
+python tools/custom.py --p '../pretrained_models/cityscapes/SANet_Cityscapes_test.pth' --t '*.png'
 ````
 
 
