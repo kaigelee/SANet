@@ -13,7 +13,7 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
 
 ## Demos
 
-A demo of the segmentation performance of our proposed SANets: Original video (left) and predictions of SANet-100 and SANet-50 (right)
+A demo of the segmentation performance of our proposed SANets: Predictions of SANet-100 (top) and SANet-50 (bottom).
 <p align="center">
   <img src="figs/video1_all.gif" alt="Cityscapes" width="800"/></br>
   <span align="center">Cityscapes Stuttgart demo video #1</span>
