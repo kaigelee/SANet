@@ -100,6 +100,7 @@ python tools/custom.py --p '../pretrained_models/cityscapes/SANet_Cityscapes_tes
 
 ## TODO
 - [ ] Refactor and clean code
+- [ ] Organize all codes and upload them
 - [ ] Release complete config, network and training files
 
 
