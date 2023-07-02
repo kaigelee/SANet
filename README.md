@@ -70,7 +70,7 @@ python tools/eval.py --cfg configs/SANet_cityscapes.yaml \
 ````
 * Or, evaluate the SANet on CamVid test set:
 ````bash
-python tools/eval.py --cfg configs/SANet_cityscapes.yaml \
+python tools/eval.py --cfg configs/SANet_camvid.yaml \
                           TEST.MODEL_FILE pretrained_models/camvid/SANet_Camvid_Test.pt
 ````
 * Generate the testing results of SANet on Cityscapes test set:
