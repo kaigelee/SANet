@@ -24,6 +24,19 @@ A demo of the segmentation performance of our proposed SANets: Predictions of SA
   <span align="center">Cityscapes Stuttgart demo video #2</span>
 </p>
 
+## Metrics
+
+| Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS |
+|:-:|:-:|:-:|:-:|
+| SANet-50 | [78.8]| [78.6] | 93.2 |
+| SANet-75 | [79.9] | [79.8] | 42.2 |
+| SANet-100 | [80.9]| [80.6] | 31.1 |
+
+| Model (CamVid) | Val (% mIOU) | Test (% mIOU)| FPS |
+|:-:|:-:|:-:|:-:|
+| SANet |-| [80.1] | 153.7 |
+
+
 ## Setup Environment
 
 For this project, we used python 3.8.5. We recommend setting up a new virtual
