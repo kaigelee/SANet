@@ -26,15 +26,15 @@ A demo of the segmentation performance of our proposed SANets: Predictions of SA
 
 ## Metrics
 
-| Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS (TensorRT) |
+| Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) |
 |:-:|:-:|:-:|:-:|
-| SANet-50 |  73.7 | 72.7 | pending |
-| SANet-75 | 77.6  | 76.6 | pending |
-| SANet-100 | 79.1 | 78.1 | pending |
+| SANet-50 |  73.7 | 72.7 | 309.7 |
+| SANet-75 | 77.6  | 76.6 | 167.3 |
+| SANet-100 | 79.1 | 78.1 | 109.0 |
 
-| Model (CamVid) | Val (% mIOU) | Test (% mIOU)| FPS (1080Ti) |
+| Model (CamVid) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) |
 |:-:|:-:|:-:|:-:|
-| SANet |-| 77.2 | 198.5 |
+| SANet |-| 77.2 | 250.4 |
 
 
 ## Setup Environment
