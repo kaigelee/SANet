@@ -94,6 +94,13 @@ python tools/eval.py --cfg configs/SANet_cityscapes_trainval.yaml \
 
 ### 3. Speed Measurement
 
+#### 3.0 Latency measurement tools
+
+* If you have successfully installed [TensorRT](https://github.com/chenwydj/FasterSeg#installation), you will automatically use TensorRT for the following latency tests (see [function](https://github.com/chenwydj/FasterSeg/blob/master/tools/utils/darts_utils.py#L167) here).
+* Otherwise you will be switched to use Pytorch for the latency tests  (see [function](https://github.com/chenwydj/FasterSeg/blob/master/tools/utils/darts_utils.py#L184) here).
+
+#### 3.1 Measure the speed of the SANet
+
 * Measure the inference speed of SANet-100 for Cityscapes:
 ````bash
 python models/speed/sanet_speed.py --c 19 --r 1024 2048
