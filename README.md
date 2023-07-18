@@ -9,7 +9,7 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
 
 * **Towards Real-time Applications**: SANet could be directly used for the real-time applications, such as autonomous vehicle and medical imaging.
 * **A Novel and Efficient Decoder**: a novel Scale-Aware Decoder is introduced to construct features containing scale-specific information for each position via selective context encoding and feature fusion.
-* **More Accurate and Faster**: SANet presents 78.1% mIOU with speed of 108.98 FPS on Cityscapes test set and 77.2% mIOU with speed of 250.42 FPS on CamVid test set.
+* **More Accurate and Faster**: SANet presents 78.1% mIOU with speed of 109.0 FPS on Cityscapes test set and 77.2% mIOU with speed of 250.4 FPS on CamVid test set.
 
 ## Demos
 
