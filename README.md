@@ -26,11 +26,13 @@ A demo of the segmentation performance of our proposed SANets: Predictions of SA
 
 ## Metrics
 
-| Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) |
+Because we plan to embed our method into the robot designed by our research group to improve its ability to understand the scene. Therefore, we plan to migrate our SANet to TensorRT, and test the speed on embedded systems NVIDIA Jetson AGX Xavier and NVIDIA GTX 1080Ti, respectively.
+
+| Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) | FPS (Xavier&TensorRT) |  FPS (1080Ti&TensorRT) |
 |:-:|:-:|:-:|:-:|
-| SANet-50 |  73.7 | 72.7 | 309.7 |
-| SANet-75 | 77.6  | 76.6 | 167.3 |
-| SANet-100 | 79.1 | 78.1 | 109.0 |
+| SANet-50 |  73.7 | 72.7 | 309.7 | pending | pending |
+| SANet-75 | 77.6  | 76.6 | 167.3 | pending | pending |
+| SANet-100 | 79.1 | 78.1 | 109.0 | pending | pending |
 
 | Model (CamVid) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) |
 |:-:|:-:|:-:|:-:|
