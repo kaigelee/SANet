@@ -13,7 +13,7 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
 
 ## News
 
-Good News! I achieved an mIoU of [78.2084](https://www.cityscapes-dataset.com/anonymous-results/?id=1adb8c0ed09f8be399891f2b889becce654b24f69968109af911669edf78c6b7) in the newest experbiment by removing Gaussian blur during data augmentation. (the experiment is still running and the final mIoU may be even higher)!
+Good News! I achieved an mIoU of [78.2998](https://www.cityscapes-dataset.com/anonymous-results/?id=4b20f9c0105bedd70b73d5e841ec523f6950314bb65db013c3311674c88e1428) in the newest experbiment by removing Gaussian blur during data augmentation. (the experiment is still running and the final mIoU may be even higher)!
 
 ## Demos
 
