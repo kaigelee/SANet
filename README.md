@@ -92,17 +92,17 @@ python tools/trainval.py --cfg configs/SANet_cityscapes_trainval.yaml
 * For example, evaluate the SANet on Cityscapes val set:
 ````bash
 python tools/eval.py --cfg configs/SANet_cityscapes.yaml \
-                          TEST.MODEL_FILE pretrained_models/cityscapes/SANet_Cityscapes_test.pt
+                          TEST.MODEL_FILE pretrained_models/cityscapes/SANet_best_model.pt
 ````
 * Or, evaluate the SANet on CamVid test set:
 ````bash
 python tools/eval.py --cfg configs/SANet_camvid.yaml \
-                          TEST.MODEL_FILE pretrained_models/camvid/SANet_Camvid_test.pt
+                          TEST.MODEL_FILE pretrained_models/camvid/SANet_camvid_best_model.pt
 ````
 * Generate the testing results of SANet on Cityscapes test set:
 ````bash
 python tools/eval.py --cfg configs/SANet_cityscapes_trainval.yaml \
-                          TEST.MODEL_FILE pretrained_models/cityscapes/SANet_trainval_Cityscapes_test.pt 
+                          TEST.MODEL_FILE pretrained_models/cityscapes/SANet_trainval_best_model.pt 
 ````
 
 ### 3. Speed Measurement
@@ -127,7 +127,7 @@ python models/speed/sanet_speed.py --c 11 --r 720 960
 
 * Put all your images in `samples/` and then run the command below using Cityscapes pretrained SANet for image format of .png:
 ````bash
-python tools/custom.py --p '../pretrained_models/cityscapes/SANet_Cityscapes_test.pth' --t '*.png'
+python tools/custom.py --p '../pretrained_models/cityscapes/SANet_best_model.pth' --t '*.png'
 ````
 
 
