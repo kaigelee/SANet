@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# Written by Jiacong Xu (jiacong.xu@tamu.edu)
+# Written by Kaige Li (kglee1994@163.com)
 # ------------------------------------------------------------------------------
 import torch
 import torch.nn as nn
