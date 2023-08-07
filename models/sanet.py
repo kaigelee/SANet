@@ -14,10 +14,51 @@ algc = False
 ## TODO
 
 
-def get_pred_model(name,num_classes):
+class SANet(nn.Module):
+    def __init__(self, num_classes=19, augment=False, *args, **kwargs):
+
+        super(SANet, self).__init__()
+
+        self.resnet = Backbone()
+
+        self.sce = SCE()
+
+        self.sff = SFF()
 
 
-    return None
+        self.conv_out32 = BiSeNetOutput(128, 128, num_classes, up_factor=8)
+
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+            elif isinstance(m, BatchNorm2d):
+                nn.init.constant_(m.weight, 1)
+                nn.init.constant_(m.bias, 0)
+
+    def forward(self, x):
+
+        feat8, feat32 = self.resnet(x)
+
+        f = self.sce(feat32)
+
+        f = self.sff( feat8 , f)
+
+        out = self.conv_out32(f)
+
+        return out
+
+
+def get_seg_model(cfg, imgnet_pretrained=True):
+    model = SANet(num_classes=cfg.DATASET.NUM_CLASSES, augment=True)
+
+    return model
+
+def get_pred_model(name, num_classes):
+    model = SANet(num_classes=num_classes, augment=False)
+
+    return model
+
+
 
 if __name__ == '__main__':
     
@@ -63,8 +104,3 @@ if __name__ == '__main__':
     torch.cuda.empty_cache()
     FPS = 1000 / latency
     print(FPS)
-    
-    
-    
-
-
