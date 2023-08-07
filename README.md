@@ -101,7 +101,7 @@ python tools/eval.py --cfg configs/SANet_camvid.yaml \
 ````
 * Generate the testing results of SANet on Cityscapes test set:
 ````bash
-python tools/eval.py --cfg configs/SANet_cityscapes_trainval.yaml \
+python tools/submit.py --cfg configs/SANet_cityscapes_trainval.yaml \
                           TEST.MODEL_FILE pretrained_models/cityscapes/SANet_trainval_best_model.pt 
 ````
 
