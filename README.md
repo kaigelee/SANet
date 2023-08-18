@@ -51,7 +51,7 @@ SCE and SFF blocks are responsiable for selective context encoding and feature f
 
 ## Metrics
 
-Because we plan to embed our method into the robot designed by our research group to improve its ability to understand the scene. Therefore, we plan to migrate our SANet to TensorRT, and test the speed on embedded systems NVIDIA Jetson AGX Xavier.
+:bell: Because we plan to embed our method into the robot designed by our research group to improve its ability to understand the scene. Therefore, we plan to migrate our SANet to TensorRT, and test the speed on embedded systems NVIDIA Jetson AGX Xavier.
 
 | Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) | FPS (Xavier&TensorRT) |
 |:-:|:-:|:-:|:-:|:-:|
