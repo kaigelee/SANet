@@ -25,7 +25,7 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
   - [ ] random horizontal flipping 
   - [ ] random scaling
   - [ ] color jitter
-- 
+
 
 
 ## Demos
