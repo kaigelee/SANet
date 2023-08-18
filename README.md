@@ -13,13 +13,14 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
 
 ## 🎉 Updates 🎉
 
-:bell: Good News! I achieved an mIoU of [78.2998](https://www.cityscapes-dataset.com/anonymous-results/?id=4b20f9c0105bedd70b73d5e841ec523f6950314bb65db013c3311674c88e1428) in the newest experbiment by removing Gaussian blur during data augmentation. (the experiment is still running and the final mIoU may be even higher)! Now, the data augmentation process includes
-
-- [ ] random cropping
-- [ ] random horizontal flipping 
-- [ ] random scaling
-- [ ] color jitter
-
+- Our paper is undergoing a second peer review. In the meantime, we have prepared a preprint and will post a link to it soon. (Jul/26/2023)
+- The overview, training logs, and some codes for CSFCN are available here. (Jul/29/2022)
+- :bell: Good News! I achieved an mIoU of [78.2998](https://www.cityscapes-dataset.com/anonymous-results/?id=4b20f9c0105bedd70b73d5e841ec523f6950314bb65db013c3311674c88e1428) in the newest experbiment by removing Gaussian blur during data augmentation. (the experiment is still running and the final mIoU may be even higher)! Now, the data augmentation process includes
+  - [ ] random cropping
+  - [ ] random horizontal flipping 
+  - [ ] random scaling
+  - [ ] color jitter
+- 
 
 
 ## Demos
