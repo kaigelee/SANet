@@ -11,7 +11,7 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
 * **A Novel and Efficient Decoder**: a novel Scale-Aware Decoder is introduced to construct features containing scale-specific information for each position via selective context encoding and feature fusion.
 * **More Accurate and Faster**: SANet presents 78.1% mIOU with speed of 109.0 FPS on Cityscapes test set and 77.2% mIOU with speed of 250.4 FPS on CamVid test set.
 
-## News
+## 🎉 Updates 🎉
 
 :bell: Good News! I achieved an mIoU of [78.2998](https://www.cityscapes-dataset.com/anonymous-results/?id=4b20f9c0105bedd70b73d5e841ec523f6950314bb65db013c3311674c88e1428) in the newest experbiment by removing Gaussian blur during data augmentation. (the experiment is still running and the final mIoU may be even higher)! Now, the data augmentation process includes
 
