@@ -48,10 +48,7 @@ A demo of the segmentation performance of our proposed SANets: Predictions of SA
 </p>
 SCE and SFF blocks are responsiable for selective context encoding and feature fusion, respectively.
 
-<p align="center">
-  <img src="figs/visualization.png" alt="overview-of-our-method" width="800"/></br>
-  <span align="center">An overview of the basic architecture of our proposed Scale-Aware Network (SAFCN). </span> 
-</p>
+
 
 
 ## Metrics
@@ -68,6 +65,15 @@ SCE and SFF blocks are responsiable for selective context encoding and feature f
 |:-:|:-:|:-:|:-:|:-:|
 | SANet |-| 77.2 | 250.4 | 98.8 |
 
+
+## Visualization
+
+Our SANet produces higher-quality segmentation results on both large and small objects.
+
+<p align="center">
+  <img src="figs/visualization.png" alt="overview-of-our-method" width="800"/></br>
+  <span align="center">An overview of the basic architecture of our proposed Scale-Aware Network (SAFCN). </span> 
+</p>
 
 ## Setup Environment
 
