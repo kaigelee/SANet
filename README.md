@@ -46,7 +46,7 @@ A demo of the segmentation performance of our proposed SANets: Predictions of SA
   <img src="figs/SANet_r.png" alt="overview-of-our-method" width="800"/></br>
   <span align="center">An overview of the basic architecture of our proposed Scale-Aware Network (SAFCN). </span> 
 </p>
-SCE and SFF blocks are responsiable for selective context encoding and feature fusion, respectively.
+:smiley_cat: SCE and SFF blocks are responsiable for selective context encoding and feature fusion, respectively.
 
 
 
@@ -67,7 +67,7 @@ SCE and SFF blocks are responsiable for selective context encoding and feature f
 |:-:|:-:|:-:|:-:|:-:|
 | SANet |-| 77.2 | 250.4 | 98.8 |
 
-Our method can still maintain better real-time performance on RTX 2080 Super Max-Q.
+:smiley_cat: Our method can still maintain better real-time performance on RTX 2080 Super Max-Q.
 
 ## Visualization
 
