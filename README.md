@@ -158,6 +158,13 @@ python models/speed/sanet_speed.py --c 11 --r 720 960
 python tools/custom.py --p '../pretrained_models/cityscapes/SANet_best_model.pth' --t '*.png'
 ````
 
+You should end up seeing images that look like the following:
+
+<p align="center">
+  <img src="figs/visualization.png" alt="overview-of-our-method" width="800"/></br>
+  <span align="center">Custom Output. </span> 
+</p>
+
 
 ## TODO
 - [ ] Refactor and clean code
