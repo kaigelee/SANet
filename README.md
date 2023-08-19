@@ -67,6 +67,7 @@ SCE and SFF blocks are responsiable for selective context encoding and feature f
 |:-:|:-:|:-:|:-:|:-:|
 | SANet |-| 77.2 | 250.4 | 98.8 |
 
+Our method can still maintain better real-time performance on RTX 2080 Super Max-Q.
 
 ## Visualization
 
