@@ -61,7 +61,7 @@ SCE and SFF blocks are responsiable for selective context encoding and feature f
 
 | Model (CamVid) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) |FPS (RTX 2080<br>Super Max-Q) |
 |:-:|:-:|:-:|:-:|:-:|
-| SANet |-| 77.2 | 250.4 |  |
+| SANet |-| 77.2 | 250.4 | 98.8 |
 
 
 ## Setup Environment
