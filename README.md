@@ -16,7 +16,7 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
 ## Updates
 
 - Our paper is undergoing a second peer review. In the meantime, we have prepared a preprint and will post a link to it soon. (Jul/26/2023)
-- The overview, training logs, and some codes for CSFCN are available here. (Jul/29/2022)
+- The overview, training logs, and some codes for SANet are available here. (Jul/29/2022)
 
 ## 🎉 News 🎉
 
