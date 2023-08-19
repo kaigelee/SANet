@@ -167,10 +167,8 @@ python tools/custom.py --p '../pretrained_models/cityscapes/SANet_best_model.pth
 This project is based on the following open-source projects. We thank their
 authors for making the source code publically available.
 
-* [awesome-semantic-segmentation-pytorch](https://github.com/Tramac/awesome-semantic-segmentation-pytorch)
-* [ICNet-pytorch](https://github.com/liminn/ICNet-pytorch)
 * [PIDNet](https://github.com/XuJiacong/PIDNet)
+* [ICNet-pytorch](https://github.com/liminn/ICNet-pytorch)
 * [Human-Segmentation-PyTorch](https://github.com/thuyngch/Human-Segmentation-PyTorch)
 * [HRNet-Semantic-Segmentation](https://github.com/HRNet/HRNet-Semantic-Segmentation)
-* [DDRNet](https://github.com/ydhongHIT/DDRNet)
-
+* [awesome-semantic-segmentation-pytorch](https://github.com/Tramac/awesome-semantic-segmentation-pytorch)
