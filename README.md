@@ -1,4 +1,7 @@
 # Exploring Scale-Aware Features for Real-Time Semantic Segmentation of Street Scenes
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementation of the paper "Exploring Scale-Aware Features for Real-Time Semantic Segmentation of Street Scenes", which is under review. The full code will be released after review.
 
 ## Highlights
