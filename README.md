@@ -72,7 +72,7 @@ Our SANet produces higher-quality segmentation results on both large and small o
 
 <p align="center">
   <img src="figs/visualization.png" alt="overview-of-our-method" width="800"/></br>
-  <span align="center">An overview of the basic architecture of our proposed Scale-Aware Network (SAFCN). </span> 
+  <span align="center">Qualitative visual comparison against different methods on the Cityscapes Val set, where notably improved regions are marked with yellow dashed boxes. </span> 
 </p>
 
 ## Setup Environment
