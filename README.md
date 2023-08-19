@@ -53,7 +53,7 @@ SCE and SFF blocks are responsiable for selective context encoding and feature f
 
 :bell: Because we plan to embed our method into the robot designed by our research group to improve its ability to understand the scene. Therefore, we plan to migrate our SANet to TensorRT, and test the speed on embedded systems NVIDIA Jetson AGX Xavier.
 
-| Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) | FPS (RTX 2080 Super Max-Q) | FPS (Xavier&TensorRT) |
+| Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) | FPS (RTX 2080  Super Max-Q) | FPS (Xavier&TensorRT) |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | SANet-50 |  73.7 | 72.7 | 309.7 | 115.1 | pending | 
 | SANet-75 | 77.6  | 76.6 | 167.3 | 61.9 | pending | 
