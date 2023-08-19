@@ -59,7 +59,7 @@ SCE and SFF blocks are responsiable for selective context encoding and feature f
 | SANet-75 | 77.6  | 76.6 | 167.3 | 61.9 | pending | 
 | SANet-100 | 79.1 | 78.1 | 109.0 | 36.3 | pending | 
 
-| Model (CamVid) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) |FPS (RTX 2080<br>Super Max-Q) |
+| Model (CamVid) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) |FPS (RTX 2080 Super Max-Q) |
 |:-:|:-:|:-:|:-:|:-:|
 | SANet |-| 77.2 | 250.4 | 98.8 |
 
