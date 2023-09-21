@@ -64,13 +64,13 @@ A demo of the segmentation performance of our proposed SANets: Predictions of SA
 
 | Model (Cityscapes) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) | FPS (RTX 2080<br>Super Max-Q) | FPS (NVIDIA Jetson<br>AGX Xavier(32GB)) |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| SANet-50 |  73.7 | 72.7 | 309.7 | 115.1 | 29.5 | 
-| SANet-75 | 77.6  | 76.6 | 167.3 | 61.9 |15.8 | 
-| SANet-100 | 79.1 | 78.1 | 109.0 | 36.3 |  9.3 | 
+| SANet-50 |  73.7 | 72.7 | 309.7 | 115.1 | 34.3 | 
+| SANet-75 | 77.6  | 76.6 | 167.3 | 61.9 |16.4 | 
+| SANet-100 | 79.1 | 78.1 | 109.0 | 36.3 |  9.7 | 
 
 | Model (CamVid) | Val (% mIOU) | Test (% mIOU)| FPS (RTX 3090) |FPS (RTX 2080<br>Super Max-Q) | FPS (NVIDIA Jetson<br>AGX Xavier(32GB)) |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| SANet |-| 77.2 | 250.4 | 98.8 |25.3|
+| SANet |-| 77.2 | 250.4 | 98.8 | 26.8|
 
 :smiley_cat: Our method can still maintain better real-time performance on RTX 2080 Super Max-Q.
 
