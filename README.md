@@ -143,7 +143,7 @@ python tools/submit.py --cfg configs/SANet_cityscapes_trainval.yaml \
 #### 3.0 Latency measurement tools
 
 * If you have successfully installed [TensorRT](https://github.com/chenwydj/FasterSeg#installation), you will automatically use TensorRT for the following latency tests (see [function](https://github.com/chenwydj/FasterSeg/blob/master/tools/utils/darts_utils.py#L167) here).
-* Or you can implement TensorRT inference based on the guidance of [torch2trt](https://nvidia-ai-iot.github.io/torch2trt/master/usage/basic_usage.html).
+* Or you can implement TensorRT inference based on the guidance of [torch2trt](https://nvidia-ai-iot.github.io/torch2trt/master/usage/basic_usage.html). (recommended)  🔥
 * Otherwise you will be switched to use Pytorch for the latency tests  (see [function](https://github.com/chenwydj/FasterSeg/blob/master/tools/utils/darts_utils.py#L184) here).
 
 #### 3.1 Measure the speed of the SANet
