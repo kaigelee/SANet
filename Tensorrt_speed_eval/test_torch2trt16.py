@@ -1,6 +1,5 @@
 import torch
 from torch2trt import torch2trt
-from torchvision.models.alexnet import alexnet
 from sanet import get_pred_model
 import time
 import numpy as np
@@ -34,14 +33,14 @@ def benchmark(model, input_shape=(1024, 1, 224, 224), dtype='fp16', nwarmup=50, 
 
 
 
-model = get_pred_model(name='pidnet_s', num_classes=19).eval().cuda()
+model = get_pred_model(num_classes=19).eval().cuda()
 
 # create example data
 x = torch.ones((1, 3, 1024, 2048)).cuda()
 
 # convert to TensorRT feeding sample data as input
 model_trt = torch2trt(model, [x], fp16_mode=True)
-# torch.save(model_trt.state_dict(), 'alexnet_trt.pth')
+# torch.save(model_trt.state_dict(), 'sanet_trt.pth')
 import time
 
 benchmark(model_trt, input_shape=(1, 3, 1024, 2048), nruns=100)
