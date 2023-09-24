@@ -22,6 +22,7 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
 
 - Our paper is undergoing a third peer review. In the meantime, we have prepared a preprint and will post a link to it soon. (Jul/26/2023)
 - The overview, training logs, and some codes for SANet are available here. (Jul/29/2022)
+- We’ve updated how to use TensorRT to accelerate network inference. (Sep/22/2022)
 
 ## 🎉 News 
 
