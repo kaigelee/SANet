@@ -24,6 +24,8 @@ By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementa
 - The overview, training logs, and some codes for SANet are available here. (Jul/29/2022)
 - We’ve updated how to use TensorRT to accelerate network inference. (Sep/22/2022)
 - We find the design of *Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network, CVPR 2016* could further improve performance, so we recommend using it to build networks. (Sep/27/2022)
+- We open sourced pixelshuffle-based [SANet](https://github.com/kaigelee/SANet/blob/main/models/sanet.py) and [SANet-Tiny](https://github.com/kaigelee/SANet/blob/main/models/sanet_tiny.py). Please note that some hyperparameters of the module still need to be standardized, which we are working on. (Nov/30/2023)
+
 
 ## 🎉 News 
 
