@@ -6,6 +6,8 @@
 
 By Kaige Li, Qichuan Geng, Zhong Zhou. This repository is an official implementation of the paper "Exploring Scale-Aware Features for Real-Time Semantic Segmentation of Street Scenes", which is under review. The full code will be released after review.
 
+We have open sourced the original network files, but the overall project still needs to be refactored, which is what we will do in the future.
+
 ## Highlights
 <p align="center">
   <img src="figs/score.png" alt="overview-of-our-method" width="500"/></br>
